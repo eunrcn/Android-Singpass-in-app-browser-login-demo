@@ -293,57 +293,55 @@ Toast.makeText(app, "Error occurred: Intent is null!", Toast.LENGTH_SHORT).show(
 ## Demo Video/s
 
 ### MyInfo Consent
-
-| MyInfo Mockpass Demo<br>(Chrome Custom Tab) | MyInfo Mockpass Demo<br>(External browser fallback) |     
+| MyInfo Mockpass Demo<br>(Chrome Custom Tab) | MyInfo Mockpass Demo<br>(External browser fallback) |     
 |---|---|
-| \<img src="myinfo\_pkce\_cct.gif" alt="Myinfo Mockpass flow video" width="216.05px" height="480px"\>\</img\> | \<img src="myinfo\_pkce\_browser\_fallback.gif" alt="Myinfo Mockpass flow video" width="300px" height="480px"\>\</img\> |
+| <img src="myinfo_pkce_cct.gif" alt="Myinfo Mockpass flow video" width="216.05px" height="480px"></img> | <img src="myinfo_pkce_browser_fallback.gif" alt="Myinfo Mockpass flow video" width="300px" height="480px"></img> |
 
 ### Singpass Login
-
 | Singpass Demo<br>(Chrome Custom Tab) | Singpass Demo<br>(External browser fallback) |
 |---|---|
-|  \<img src="singpass\_pkce\_cct.gif" alt="Singpass flow video" width="216.05px" height="480px"\>\</img\> | \<img src="singpass\_pkce\_browser\_fallback.gif" alt="Singpass flow video" width="300px" height="480px"\>\</img\> |
+|  <img src="singpass_pkce_cct.gif" alt="Singpass flow video" width="216.05px" height="480px"></img> | <img src="singpass_pkce_browser_fallback.gif" alt="Singpass flow video" width="300px" height="480px"></img> |
 
 ## FAQ
 
-  - How do i know if I am using [Chrome Custom Tabs](https://www.google.com/search?q=https://developer.chrome.com/docs/android/custom-tabs/%23:~:text%3DCustom%2520Tabs%2520is%2520a%2520browser,to%2520resort%2520to%2520a%2520WebView.) (CCT), external web browser or [WebView](https://developer.android.com/reference/android/webkit/WebView)?
+- How do i know if I am using [Chrome Custom Tabs](https://developer.chrome.com/docs/android/custom-tabs/#:~:text=Custom%20Tabs%20is%20a%20browser,to%20resort%20to%20a%20WebView.) (CCT), external web browser or [WebView](https://developer.android.com/reference/android/webkit/WebView)?
 
-You can tell if the Singpass login page is being open in [Chrome Custom Tabs](https://www.google.com/search?q=https://developer.chrome.com/docs/android/custom-tabs/%23:~:text%3DCustom%2520Tabs%2520is%2520a%2520browser,to%2520resort%2520to%2520a%2520WebView.) by looking at the dropdown menu. It should indicate that the [Chrome Custom Tabs](https://www.google.com/search?q=https://developer.chrome.com/docs/android/custom-tabs/%23:~:text%3DCustom%2520Tabs%2520is%2520a%2520browser,to%2520resort%2520to%2520a%2520WebView.) is being powered or run by an implemented web browser. And there usually is an option to open the webpage in the indicated web browser. Some of the web browsers that implement the [Chrome Custom Tabs](https://www.google.com/search?q=https://developer.chrome.com/docs/android/custom-tabs/%23:~:text%3DCustom%2520Tabs%2520is%2520a%2520browser,to%2520resort%2520to%2520a%2520WebView.) feature is shown below.
+You can tell if the Singpass login page is being open in [Chrome Custom Tabs](https://developer.chrome.com/docs/android/custom-tabs/#:~:text=Custom%20Tabs%20is%20a%20browser,to%20resort%20to%20a%20WebView.) by looking at the dropdown menu. It should indicate that the [Chrome Custom Tabs](https://developer.chrome.com/docs/android/custom-tabs/#:~:text=Custom%20Tabs%20is%20a%20browser,to%20resort%20to%20a%20WebView.) is being powered or run by an implemented web browser. And there usually is an option to open the webpage in the indicated web browser. Some of the web browsers that implement the [Chrome Custom Tabs](https://developer.chrome.com/docs/android/custom-tabs/#:~:text=Custom%20Tabs%20is%20a%20browser,to%20resort%20to%20a%20WebView.) feature is shown below.
 
-| Brave Browser CCT                                                                                                  | Chrome Browser CCT                                                                                                   |     
+| Brave Browser CCT                                                                                                  | Chrome Browser CCT                                                                                                   |     
 |--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| \<img src="CCT\_Screenshots/Brave\_CCT.png" alt="Brave browser chrome custom tab" width="270px" height="480px"\>\</img\> | \<img src="CCT\_Screenshots/Chrome\_CCT.png" alt="Chrome browser chrome custom tab" width="216px" height="480px"\>\</img\> |
+| <img src="CCT_Screenshots/Brave_CCT.png" alt="Brave browser chrome custom tab" width="270px" height="480px"></img> | <img src="CCT_Screenshots/Chrome_CCT.png" alt="Chrome browser chrome custom tab" width="216px" height="480px"></img> |
 
-| Firefox Browser CCT                                                                                                    | Firefox Focus Browser CCT                                                                                                          |     
+| Firefox Browser CCT                                                                                                    | Firefox Focus Browser CCT                                                                                                          |     
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| \<img src="CCT\_Screenshots/Firefox\_CCT.png" alt="Firefox browser chrome custom tab" width="270px" height="480px"\>\</img\> | \<img src="CCT\_Screenshots/Firefox\_Focus\_CCT.png" alt="Firefox Focus browser chrome custom tab" width="270px" height="480px"\>\</img\> |
+| <img src="CCT_Screenshots/Firefox_CCT.png" alt="Firefox browser chrome custom tab" width="270px" height="480px"></img> | <img src="CCT_Screenshots/Firefox_Focus_CCT.png" alt="Firefox Focus browser chrome custom tab" width="270px" height="480px"></img> |
 
-| Microsoft Edge Browser CCT                                                                                                   | Huawei Browser CCT                                                                                                           |     
+| Microsoft Edge Browser CCT                                                                                                   | Huawei Browser CCT                                                                                                           |     
 |------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| \<img src="CCT\_Screenshots/Microsoft\_Edge\_CCT.png" alt="Microsoft Edge chrome custom tab" width="270px" height="480px"\>\</img\> | \<img src="CCT\_Screenshots/Huawei\_Browser\_CCT.png" alt="Huawei browser chrome custom tab" width="240px" height="480px"\>\</img\> |
+| <img src="CCT_Screenshots/Microsoft_Edge_CCT.png" alt="Microsoft Edge chrome custom tab" width="270px" height="480px"></img> | <img src="CCT_Screenshots/Huawei_Browser_CCT.png" alt="Huawei browser chrome custom tab" width="240px" height="480px"></img> |
 
-| Samsung Internet Browser CCT                                                                                                            |    
+| Samsung Internet Browser CCT                                                                                                            |    
 |-----------------------------------------------------------------------------------------------------------------------------------------|
-| \<img src="CCT\_Screenshots/Samsung\_Browser\_CCT.png" alt="Samsung Internet browser chrome custom tab" width="270px" height="480px"\>\</img\> |
+| <img src="CCT_Screenshots/Samsung_Browser_CCT.png" alt="Samsung Internet browser chrome custom tab" width="270px" height="480px"></img> |
 
 <br>
 
 You can tell if the Singpass login page is opened in a external web browser by looking for the editable address bar. Below are 2 examples.
 
-| Opera Web browser                                                                                            | DuckDuckGo Browser                                                                                             |     
+| Opera Web browser                                                                                            | DuckDuckGo Browser                                                                                             |     
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| \<img src="CCT\_Screenshots/Opera\_Web\_Browser.png" alt="Opera Web browser" width="270px" height="480px"\>\</img\> | \<img src="CCT\_Screenshots/DuckDuckGo\_Browser.png" alt="DuckDuckGo browser" width="240px" height="480px"\>\</img\> |
+| <img src="CCT_Screenshots/Opera_Web_Browser.png" alt="Opera Web browser" width="270px" height="480px"></img> | <img src="CCT_Screenshots/DuckDuckGo_Browser.png" alt="DuckDuckGo browser" width="240px" height="480px"></img> |
 
 ## Known issues
 
-  - As of 26th May 2023 we are seeing a bug on the `Microsoft Edge v113.0.1774.63` affecting app linking, where fallback url will be open mistakenly when launching Singpass app on QR code click. Please refer to [this](https://www.google.com/search?q=%23Create-the-OAuth-authorization-service) to see how restrict specific browsers usage. Demo of the aforementioned behavior below, as compare to the expected behavior when using [Chrome](https://www.google.com/search?q=%23Singpass-Login)
-    <br><br>
-    \<img src="edge\_browser\_issue.gif" alt="Myinfo Mockpass flow video" width="300px" height="480px"\>\</img\>
-    <br><br>
-  - As of 9th June 2023 we are seeing a bug on the `Samsung Internet Browser v21.0.0.41` affecting app linking where customs tabs from Samsung Internet browser will close itself when launching Singpass app after clicking on QR code. Please refer to [this](https://www.google.com/search?q=%23Create-the-OAuth-authorization-service) to see how restrict specific browsers usage. Demo of the aforementioned behavior below, as compare to the expected behavior when using [Chrome](https://www.google.com/search?q=%23Singpass-Login)
-      <br><br>
-      \<img src="samsung\_internet\_browser\_issue.gif" alt="Myinfo Mockpass flow video" width="300px" height="480px"\>\</img\>
+- As of 26th May 2023 we are seeing a bug on the `Microsoft Edge v113.0.1774.63` affecting app linking, where fallback url will be open mistakenly when launching Singpass app on QR code click. Please refer to [this](#Create-the-OAuth-authorization-service) to see how restrict specific browsers usage. Demo of the aforementioned behavior below, as compare to the expected behavior when using [Chrome](#Singpass-Login)
+<br><br>
+<img src="edge_browser_issue.gif" alt="Myinfo Mockpass flow video" width="300px" height="480px"></img>
+<br><br>
+- As of 9th June 2023 we are seeing a bug on the `Samsung Internet Browser v21.0.0.41` affecting app linking where customs tabs from Samsung Internet browser will close itself when launching Singpass app after clicking on QR code. Please refer to [this](#Create-the-OAuth-authorization-service) to see how restrict specific browsers usage. Demo of the aforementioned behavior below, as compare to the expected behavior when using [Chrome](#Singpass-Login)
+  <br><br>
+  <img src="samsung_internet_browser_issue.gif" alt="Myinfo Mockpass flow video" width="300px" height="480px"></img>
 
-## Polling 
+## Polling 
 
 Vote [here](https://github.com/singpass/Android-Singpass-in-app-browser-login-demo/discussions/1) to indicate if you would like a library that handles all these implementation
