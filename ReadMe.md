@@ -35,7 +35,8 @@ This repository has codes for a sample Android application implementing the reco
       <br><br>
 
 ​\* - Take note that the `redirect_uri` must be a **verified HTTPS URL** that represents an Android App Link, as configured in the [AndroidManifest.xml](https://www.google.com/search?q=%23In-the-AndroidManifest.xml) implementation.
-​\# - It is up to the RP to secure the connection between **RP Mobile App** and **RP Backend**
+
+&#8203;# - It is up to the RP to secure the connection between **RP Mobile App** and **RP Backend**
 
 # Potential changes/enhancements for RP Backend
 
