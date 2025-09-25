@@ -13,9 +13,9 @@ Usage of WebViews for web logins is not recommended due to security and usabilit
 This repository has codes for a sample Android application implementing the recommended [Proof Key for Code Exchange (PKCE)](https://www.rfc-editor.org/rfc/rfc7636) for Singpass logins. The application will demonstrate the Singpass login flow while utilizing [Chrome Custom Tabs](https://www.google.com/search?q=https://developer.chrome.com/docs/android/custom-tabs/%23:~:text%3DCustom%2520Tabs%2520is%2520a%2520browser,to%2520resort%2520to%2520a%2520WebView.) or external mobile web browser along with PKCE leveraging on the Android [AppAuth](https://github.com/openid/AppAuth-Android) library.
 
 # Sequence Diagram
-
+![Sequence Diagram](pkce_sequence_diagram.png)
 <br>
-\*RP stands for **Relying Party**
+*RP stands for **Relying Party**
 
   - 1a) Call **RP Backend** to obtain backend generate `code_challenge`, `code_challenge_method` along with `state` and `nonce` if required. \#
     <br><br>
